@@ -1,0 +1,32 @@
+* {
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+
+.book-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+  width: 90%;
+  padding: 0 auto;
+}

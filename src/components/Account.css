@@ -1,0 +1,18 @@
+.account-book-container {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  gap: 25px;
+  padding: 25px;
+}
+
+.checked-book-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+}
+.checked-book-container img {
+  width: 100%;
+}
